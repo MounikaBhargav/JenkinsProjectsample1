@@ -1,0 +1,4 @@
+#!/bin/bash
+#This script does apt update and copy ssh key to dest servers
+sudo apt-get update
+echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCfxswmd+2LXgIe6MAjVe2Vns2OLjuzbTmovR/2e09z5cX7QzBRn3emWwb1Y6naktFTLnnNYqVvEHjrhSpuLNDqmZJXTeeT2sbTi9i/L0tBKgz1QRHcQoSlflQFxX9UcT4jQsoGoxAnDpWiOyrSTltkKWYuZbyFXtZW3433Gd7y/ms2lq+YwDHb7WSlx8ZFaZeLAPI8EOWYypQndD1DyCkF1W2+51iZ/+sBQ/tZHX5kV4i3jc/lxTmKXxbRafKxdSeUVg3NfmyshFCjHmNeQsEmsvAuywGGcIIBESbkZhT+mGkDMftCUXWploJsJcxFre7sChZXfT77C11uCLdGs3JiUfNo2zn+N6v50lZwGYKJumrA2jG+7mi+Ej+rzA9xZ1QJ0gstVLKlnTRlVv2SnkQkAETAOjbmoFLrJDMOi2kr46mXgVt15M3RIp5uo4t/mPCnNWmnGNFV3TvWCSfuhs6PU9jW+JrWBvZMNwgwLnSObggFvSUdhkTe6AoEe8894B8= ubuntu@ip-172-31-0-229" >> /home/ubuntu/.ssh/authorized_keys
